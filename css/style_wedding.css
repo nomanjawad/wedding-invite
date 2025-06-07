@@ -61,7 +61,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #ffc8dd;
+  color: #000000;
 }
 
 p {
@@ -84,7 +84,7 @@ hr {
 
 /*General links color*/
 a {
-  color: #ffc8dd;
+  color: #000;
   text-decoration: none;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -117,7 +117,7 @@ a.animated_link:before {
   bottom: -5px;
   opacity: 1;
   left: 0;
-  background-color: #ffc8dd;
+  background-color: #000;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -136,7 +136,7 @@ a.animated_link:hover:before {
 a.animated_link.active {
   position: relative;
   text-decoration: none;
-  color: #ffc8dd;
+  color: #000;
 }
 a.animated_link.active:before {
   content: "";
@@ -146,7 +146,7 @@ a.animated_link.active:before {
   bottom: -5px;
   opacity: 1;
   left: 0;
-  background-color: #ffc8dd;
+  background-color: #000;
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -157,7 +157,7 @@ a.btn_1,
 .btn_1 {
   border: none;
   color: #fff;
-  background: #ffc8dd;
+  background: #000;
   outline: none;
   cursor: pointer;
   display: inline-block;
@@ -237,7 +237,7 @@ a.btn_scroll_to {
   font-size: 32px;
   font-size: 2rem;
   z-index: 3;
-  color: #ffc8dd;
+  color: #000;
   text-transform: uppercase;
   position: absolute;
   left: 50%;
@@ -418,7 +418,7 @@ a.btn_scroll_to {
 }
 
 .content-left-bg-color {
-  background-color: #ffc8dd;
+  background-color: #000;
 }
 
 .content-left-wrapper {
@@ -558,7 +558,7 @@ a#logo {
   color: #555;
 }
 .copy a:hover {
-  color: #ffc8dd;
+  color: #000;
 }
 
 /*============================================================================================*/
@@ -642,7 +642,7 @@ button.submit {
   cursor: pointer;
   outline: none;
   text-align: center;
-  background: #ffc8dd;
+  background: #000;
   position: relative;
   font-size: 16px;
   font-size: 1rem;
@@ -903,12 +903,12 @@ a.btn_info {
 .strip_info h3 {
   font-size: 24px;
   font-size: 1.5rem;
-  color: #ffc8dd;
+  color: #000;
 }
 .strip_info .date_event {
   font-size: 21px;
   font-size: 1.3125rem;
-  color: #ffc8dd;
+  color: #000;
   font-weight: 500;
 }
 .strip_info .date_event small {
@@ -1244,7 +1244,7 @@ textarea.form-control.short {
 .checkbox_radio_container input[type="checkbox"]:checked ~ .wrapper,
 .checkbox_radio_container input[type="radio"]:checked ~ .wrapper {
   transition: all 450ms;
-  background-color: #ffc8dd;
+  background-color: #000;
   color: #fff;
 }
 
@@ -1269,7 +1269,7 @@ textarea.form-control.short {
 }
 
 .container_check input:checked ~ .checkmark {
-  background-color: #ffc8dd;
+  background-color: #000;
   border: 1px solid transparent;
 }
 
@@ -1358,7 +1358,7 @@ textarea.form-control.short {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: #ffc8dd;
+  background: #000;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
